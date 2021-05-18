@@ -1,0 +1,158 @@
+# Datatypes
+string "" ''
+hash  { key: value }
+boolean true false 
+floats
+integers 1232, 1234
+Arrays 
+nil 
+NAN - not a number 
+undefined
+
+# Conditional - run logic when a condition is met 
+if else 
+ternary
+if name == "bob
+  print "hi bob"
+else 
+  print "you're not bob"
+  #print "exiting"
+  #exit
+end
+switch
+name == "bob" ? print "hi bob" : print "you're not bob"
+
+# loops - runs some logic until the condition is met 
+while
+for 
+each 
+
+# iterators - youre going through each value of a collection 
+each 
+each_with_index
+map
+
+# methods - group together code to preform a function
+def print_name 
+  afdas
+  asdfasdf
+  adsf
+end
+
+def print_name(first_name, last_name, age)
+  print "#{age}"
+end
+print_name("lizz", "turner", 54)
+
+# Array - collection of items, based off of position, index
+[ ]
+        0       1        2 
+arr = ["red", "green", "blue"]
+puts arr[2]
+puts arr.last
+
+arr << "purple"
+
+# Hashes - key value pairs
+{ }
+house = { address: '1234 st.', zip: 234324, state: 'ut' }
+house[:state] = 'id'
+house[:country] = 'usa'
+
+
+
+
+counter ex
+
+expenses = [
+  { title: "Buy Clothes", category: "Shopping", amt: 40.00 }, 
+  { title: "Tacos", category: "Food", amt: 20.00 }, 
+  { title: "Movies", category: "Fun", amt: 18.32 }
+]
+
+# 40.00 + 20.00 + 18.32
+# expenses[1][:amt] = 20.00
+
+# initial total
+@total = 0
+
+expenses.each_with_index do |e, index|
+  # p e 
+  #p index
+  # @total = @total + expenses[index][:amt]
+  
+  @total += expenses[index][:amt]
+end
+
+p @total
+
+
+
+# Ruby Gems - code packages, tools inside of our project 
+Gemfile 
+bundle init
+bundle 
+
+Objects - noun, 
+hashes person = { first_name: "adafdsf", age: 234 }
+classes 
+string, datatype, window, url
+
+# Classes - coding blueprint of objects 
+class Person
+
+
+end
+  - usually in their own file 
+
+# Modules - grouping together code that we are using over and over again 
+
+module Math 
+
+end
+
+
+# C.R.U.D
+  - action that we are able to do in app, base 
+  Create 
+  Read 
+  update 
+  Destroy
+
+#   D.R.Y 
+  # Don't Repeat Yourself
+
+#   W.E.T
+  # Written every time 
+
+#   convention - Best practices
+
+# OOP
+#   object oriented programing
+#     - treat everything as an object
+#     - dealing with object 
+
+# BOP
+#   Behavior oriented programing
+
+# inheritance 
+#   Classes 
+#   relationship between objects 
+#   parent to child 
+#     one direction 
+#     everything the parent has the child has access to 
+
+# Encapsulation 
+#   bundling all related data in a single place. 
+
+# Polymorphism 
+#   objects can take many forms 
+#   classes 
+
+# Testing - 
+#   code works like its suppose to 
+
+#   TDD
+#     Test driven Development
+#       write test first and then write code to make your code 
+#       pass the test.
